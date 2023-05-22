@@ -73,3 +73,13 @@ h1 {
     text-align: center;
 
 }
+
+@media only screen and (max-width:600px) {
+    .flexible-container {
+        display: block;
+    }
+
+    .half-width img {
+        width: 100%;
+    }
+}
